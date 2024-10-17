@@ -5,13 +5,14 @@ body {
   background-color: #282e30;
 }
 
-h1 {
+header {
   text-align: center;
 }
 
 h1,
 h2,
-h4 {
+h4,
+h6 {
   color: #dbdbdb;
 }
 
@@ -49,4 +50,36 @@ a {
 
 .curMap {
   color: #706060;
+}
+
+.Larrow,
+.Rarrow {
+  background-color: gray;
+  width: 40px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.Larrow {
+  margin-left: 400px;
+}
+
+.Rarrow {
+  margin-right: 400px;
+}
+
+.lfgImgs {
+  max-width: 50%;
+  text-align: center;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.lfg-container {
+  top: 50%;
+  transform: translate(0, 25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

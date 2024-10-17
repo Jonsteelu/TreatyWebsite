@@ -22,14 +22,17 @@
         margin-right: 15px;
       }
 
-      .map {
-        width: 50%;
-        z-index: 2;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-position: center;
+      button{
+        background-color: gray;
+        border: 0px;
+        border-radius: 20px;
+        padding-top: 10px;
+      }
+
+      i {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 15px;
       }
     </style>
   </head>
@@ -37,30 +40,37 @@
     <header>
       <h1>Treaty One Territory Map</h1>
     </header>
+    
 
-    <img src="Images/TreatyOneCanadaMap.png" 
-      class="map" alt="A map of treaty one territory in the wider context of canada"  
-    />
+    <div class="lfg-container">
+      <div class="Larrow">
+        <a href="PoNImg1.html"><i class="fa-solid fa-arrow-left fa-2xl"></i></a>
+      </div>
+      <img class="lfgImgs" src="Images/LowerFortGary/1847-246-LowerFtGarry.jpg" alt="Test 1">
+      <div class="Rarrow">
+        <a href="PoNImg3.html"><i class="fa-solid fa-arrow-right fa-2xl"></i></a>
+      </div>
+    </div>
 
     <div class="legend">
       <h2>Scale</h2>
       <div class="buttons">
-        <a href="TreatyOneAreaMap.html">
+        <a href="">
           <i class="fa-solid fa-plus fa-2xl" id="iconButtonL"></i>
         </a>
-        <a href="">
+        <a href="TreatyOneAreaMap.html">
           <i class="fa-solid fa-minus fa-2xl" id="iconButtonR"></i>
         </a>
       </div>
       <div class="MapsNav">
         <a href="TreatyOneCanadaMap.html">
-          <h4 class="curMap">Treaty One Canada Map</h4>
+          <h4>Treaty One Canada Map</h4>
         </a>
         <a href="TreatyOneAreaMap.html">
           <h4>Treaty One Area Map</h4>
         </a>
         <a href="PlaceofNegotiationImages.html">
-          <h4>Place of Negotiation Images</h4>
+          <h4 class="curMap">Place of Negotiation Images</h4>
         </a>
       </ul>
     </div>

@@ -31,15 +31,35 @@
         transform: translate(-50%, -50%);
         background-position: center;
       }
+
+      ul{
+        text-align: left;
+        color: #dbdbdb;
+        margin-left: 15px;
+        margin-top: -15px;
+      }
+
+      dd{
+        margin-left: 20px;
+        margin-top: -15px;
+        font-size: 80%;
+      }
     </style>
   </head>
   <body>
-    <img src="Images/MapBase.png" class="map" />
-    <h1>Treaty One Territory Map</h1>
+    <header>
+      <h1>Treaty One Territory Map</h1>
+    </header>
+
+    <img src="Images/TreatyOneAreaMap.png" 
+      class="map" alt="A map of manitoba with a highlight of Treaty One Territory and local Indigenous tribes, 
+      as well as Winnipeg and the place of negotiation of the the treaty which is lower fort gary" 
+    />
+
     <div class="legend">
       <h2>Scale</h2>
       <div class="buttons">
-        <a href="PlaceofNegotiationMap.html">
+        <a href="PlaceofNegotiationImages.html">
           <i class="fa-solid fa-plus fa-2xl" id="iconButtonL"></i>
         </a>
         <a href="TreatyOneCanadaMap.html">
@@ -53,8 +73,14 @@
         <a href="TreatyOneAreaMap.html">
           <h4 class="curMap">Treaty One Area Map</h4>
         </a>
-        <a href="PlaceofNegotiationMap.html">
-          <h4>Place of Negotiation Map</h4>
+        <ul>
+          <li style="list-style-type: circle;">Indigenous Tribes</li>
+          <li style="list-style-type: disc;">Winnipeg</li>
+          <li style="list-style-type: square;">Place of Negotiation</li>
+          <dd><dl>(Lower Fort Gary)</dl></dd>
+        </ul>
+        <a href="PlaceofNegotiationImages.html">
+          <h4>Place of Negotiation Images</h4>
         </a>
       </ul>
     </div>
