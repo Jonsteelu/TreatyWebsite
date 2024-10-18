@@ -46,6 +46,15 @@ h6 {
 a {
   text-decoration: none;
   color: inherit;
+  transition: color 0.3s, opacity 0.3s;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+.default-link {
+  color: blue;
+  text-decoration: underline;
 }
 
 .curMap {
@@ -69,7 +78,7 @@ a {
 }
 
 .lfgImgs {
-  max-width: 50%;
+  max-width: 100%;
   text-align: center;
   height: auto;
   display: block;
@@ -82,4 +91,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+figcaption {
+  color: #dbdbdb;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.mapFigCaps {
+  margin-top: 715px;
 }
